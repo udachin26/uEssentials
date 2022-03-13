@@ -1,0 +1,2 @@
+# BedrockEssentials
+plugin for pmmp
