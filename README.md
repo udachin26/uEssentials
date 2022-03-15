@@ -1,2 +1,2 @@
 # BedrockEssentials
-plugin for pmmp
+[WIP] plugin for pmmp
