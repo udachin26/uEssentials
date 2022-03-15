@@ -9,5 +9,5 @@ projects:
       - src: CortexPE/Commando/Commando
         version: ^3.0.0
         branch: PM4
-      lint: false
+    lint: false
 ...
