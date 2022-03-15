@@ -2,5 +2,11 @@
 build-by-default: true
 branches:
 - main
-projects: []
+projects:
+  BedrockEssentials:
+    path: ""
+    libs:
+      - src: CortexPE/Commando/Commando
+        version: ^3.0.0
+        branch: PM4
 ...
