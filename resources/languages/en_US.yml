@@ -1,0 +1,12 @@
+---
+ERR_INVALID_ARG_VALUE: "Invalid value '{value}' for argument #{position}"
+ERR_TOO_MANY_ARGUMENTS: "Too many arguments given"
+ERR_INSUFFICIENT_ARGUMENTS: "Insufficient number of arguments given"
+ERR_NO_ARGUMENTS: "No arguments are required for this command"
+ERR_COMMAND_ONLY_PLAYER: "The command is available only to the player!"
+
+COMMAND_DESC_SETHOME: "Set home point"
+COMMAND_DESC_DELHOME: "Delete home point"
+COMMAND_DESC_HOME: "Teleport to home point"
+COMMAND_DESC_HOMES: "List of house points"
+...

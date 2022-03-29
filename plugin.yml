@@ -1,23 +1,10 @@
 name: BedrockEssentials
 main: udachin26\bedrockessentials\BedrockEssentials
 version: 0.0.1
-api: 4.2.0
+api: 4.2.5
 
 load: POSTWORLD
 author: udachin26
 description: none
 website: https://github.com/udachin26/BedrockEssentials
 
-permissions:
-  bedrockessentials.command.sethome:
-    description: Allows users set home
-    default: true
-  bedrockessentials.command.delhome:
-    description: npn
-    default: true
-  bedrockessentials.command.home:
-    description: non
-    default: true
-  bedrockessentials.command.homes:
-    description: Anon
-    default: true

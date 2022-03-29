@@ -1,4 +1,43 @@
 ---
+language:
+  # Here you can choose which language will be used by default for the plugin.
+  # List of available languages: en_US, ru_RU
+  default: "en_US"
+  # true/false - enable or disable
+  # The message sending mode depending on the language supported by the plugin for the client language
+  locale: false
+
+commands:
+  sethome:
+    # true/false - To enable or disable the command
+    enable: true
+    # Here you can edit the command aliases as you like. Example: ["shome", "createhome", "ebhome"]
+    aliases: []
+   
+    permission: 
+      # This contains the permission for the command.
+      # Of course, you can also edit it for yourself if you need it.
+      name: "bedrockessentials.command.sethome"
+      default: true
+  delhome:
+    enable: true
+    aliases: []
+    permission: 
+      name: "bedrockessentials.command.delhome"
+      default: true
+  home:
+    enable: true
+    aliases: []
+    permission: 
+      name: "bedrockessentials.command.home"
+      default: true
+  homes:
+    enable: true
+    aliases: []
+    permission: 
+      name: "bedrockessentials.command.homes"
+      default: true
+
 database:
   # The database type. "sqlite" are supported.
   type: sqlite
