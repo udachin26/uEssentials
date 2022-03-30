@@ -28,7 +28,11 @@ final class ProviderManager extends BedrockEssentialsOwned{
     private function setSqliteProvider(): void{
         $provider = new SqliteProvider($this->getOwningPlugin());
         $this->setProvider($provider);
-        $this->getOwningPlugin()->getLogger()->info($provider->getName() . " is database"); //todo: lang config
+
+        $plugin = $this->getOwningPlugin();
+        $string = $plugin->getLanguageManager()->getTranslate("INFO_DEFAULT_PROVIDER");
+        $string = str_replace("{provider}", $provider->getName(), $string);
+        $plugin->getLogger()->info($string);
     }
 
     private function setProvider(Provider $provider): void{
@@ -37,9 +41,5 @@ final class ProviderManager extends BedrockEssentialsOwned{
 
     private function getProvider(): Provider{
         return $this->provider;
-    }
-
-    public function registerPlayer(Player|PlayerSession $key){
-
     }
 }

@@ -25,5 +25,4 @@ final class SessionListener extends BedrockEssentialsOwned implements Listener{
         $player = $event->getPlayer();
         $this->getOwningPlugin()->getSessionManager()->unregisterPlayerSession($player);
     }
-
 }

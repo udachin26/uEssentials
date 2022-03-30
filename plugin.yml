@@ -5,6 +5,5 @@ api: 4.2.5
 
 load: POSTWORLD
 author: udachin26
-description: none
+description: BedrockEssentials is plugin for PocketMine-MP with necessary functions
 website: https://github.com/udachin26/BedrockEssentials
-

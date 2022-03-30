@@ -46,7 +46,7 @@ final class SqliteProvider extends Provider{
         $this->database->executeSelect(self::GET_PLAYERS, [], function(array $data) use(&$return): void{
             $return = $data;
         });
-        $this->database->waitAll(); //временный костыль
+        $this->database->waitAll(); //возможно,костыль
         
         return $return;
     }

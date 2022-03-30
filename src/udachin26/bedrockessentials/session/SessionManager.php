@@ -7,6 +7,8 @@ namespace udachin26\bedrockessentials\session;
 use pocketmine\player\Player;
 use udachin26\bedrockessentials\BedrockEssentials;
 use udachin26\bedrockessentials\BedrockEssentialsOwned;
+use udachin26\bedrockessentials\listener\SessionListener;
+
 
 final class SessionManager extends BedrockEssentialsOwned{
 
@@ -14,6 +16,8 @@ final class SessionManager extends BedrockEssentialsOwned{
 
     public function __construct(BedrockEssentials $plugin){
         parent::__construct($plugin);
+
+        $plugin->getServer()->getPluginManager()->registerEvents(new SessionListener($plugin), $plugin);
     }
 
     public function getPlayerSession(Player $player): PlayerSession{
