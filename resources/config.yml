@@ -13,7 +13,7 @@ commands:
     enable: true
     # Here you can edit the command aliases as you like. Example: ["shome", "createhome", "ebhome"]
     aliases: []
-   
+
     permission: 
       # This contains the permission for the command.
       # Of course, you can also edit it for yourself if you need it.
