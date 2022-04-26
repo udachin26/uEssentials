@@ -1,5 +1,5 @@
 # uEssentials
-[![Discord](https://img.shields.io/discord/965662639168569394.svg?label=&logo=discord&logoColor=ffffff&color=7389D8&labelColor=6A7EC2)](https://discord.gg/s9YER9vgcC)
+[![Discord](https://img.shields.io/discord/968404762812903484?label=discord&logo=discord&logoColor=white&style=for-the-badge)](https://discord.gg/s9YER9vgcC)
 
 uEssentials is plugin for PMMP4. [Work in progress]
 
