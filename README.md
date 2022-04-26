@@ -1,4 +1,4 @@
-# BedrockEssentials
+# uEssentials
 BedrockEssentials is plugin for PMMP4. [Work in progress]
 
 ## Features
