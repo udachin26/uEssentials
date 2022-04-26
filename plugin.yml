@@ -1,9 +1,10 @@
-name: BedrockEssentials
-main: udachin26\bedrockessentials\BedrockEssentials
+name: uEssentials
+main: udachin26\uessentials\uEssentials
+src-namespace-prefix: udachin26\uessentials
 version: 0.0.1
-api: 4.2.5
-
+api: 4.3.0
 load: POSTWORLD
 author: udachin26
-description: BedrockEssentials is plugin for PocketMine-MP with necessary functions
-website: https://github.com/udachin26/BedrockEssentials
+description: uEssentials is plugin for PocketMine-MP with necessary functions
+website: https://github.com/udachin26/uEssentials
+virions: ["Commando", "libasynql"]

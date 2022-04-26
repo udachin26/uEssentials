@@ -11,6 +11,9 @@ ERR_PERMISSION_SET: "Error setting permission '{permission}' for '{command}' com
 
 COMMAND_USAGE: "Usage: "
 
+COMMAND_HOMES_LIST: "List of your homes: {homes}"
+COMMAND_HOMES_NO_LIST: "You don't have homes"
+
 COMMAND_DESCRIPTION_SETHOME: "Set home point"
 COMMAND_DESCRIPTION_DELHOME: "Delete home point"
 COMMAND_DESCRIPTION_HOME: "Teleport to home point"

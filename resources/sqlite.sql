@@ -1,32 +1,32 @@
 -- #!sqlite
--- #{ bedrockessentials
+-- #{ uessentials
 
--- #  { init_players
-CREATE TABLE IF NOT EXISTS players(
+-- #  { init_homes
+CREATE TABLE IF NOT EXISTS homes(
   id INTEGER PRIMARY KEY AUTOINCREMENT,
   name VARCHAR(128) NOT NULL UNIQUE,
   homes TEXT NOT NULL
 );
 -- #  }
 
--- #  { get_player
+-- #  { get_homes
 -- #    :name string
-SELECT id, name, homes FROM players WHERE name=:name;
+SELECT id, name, homes FROM homes WHERE name=:name;
 -- #  }
 
--- #  { get_players
+-- #  { getall_homes
 SELECT id, name, homes FROM players;
 -- #  }
 
--- #  { add_player
+-- #  { add_homes
 -- #    :name string
 -- #    :homes string
-INSERT OR REPLACE INTO players(name, homes) VALUES(:name, :homes);
+INSERT OR REPLACE INTO homes(name, homes) VALUES(:name, :homes);
 -- #  }
 
--- #  { remove_player
+-- #  { remove_homes
 -- #    :name string
-DELETE FROM players WHERE name=:name;
+DELETE FROM homes WHERE name=:name;
 -- #  }
 
 -- #  }
