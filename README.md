@@ -1,5 +1,5 @@
 # uEssentials
-BedrockEssentials is plugin for PMMP4. [Work in progress]
+uEssentials is plugin for PMMP4. [Work in progress]
 
 ## Features
 - ### Commands:
