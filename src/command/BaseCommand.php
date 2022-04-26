@@ -4,7 +4,7 @@ declare(strict_types=1);
 
 namespace udachin26\uessentials\command;
 
-use CortexPE\Commando\BaseCommand;
+use CortexPE\Commando\BaseCommand as CommandoCommand;
 use pocketmine\permission\DefaultPermissions;
 use pocketmine\permission\Permission;
 use pocketmine\permission\PermissionManager;
@@ -13,7 +13,7 @@ use pocketmine\player\Player;
 use udachin26\uessentials\uEssentials;
 use udachin26\uessentials\session\PlayerSession;
 
-abstract class BECommand extends BaseCommand{
+abstract class BaseCommand extends CommandoCommand{
 
     public const ERR_COMMAND_ONLY_PLAYER = 0x05;
     public const ERR_PERMISSION_SET = 0x06;
